@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.daggr2.demo.newdagger2.test3.Test3Activity;
+import com.daggr2.demo.newdagger2.test6.Test6Activity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -20,6 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void test1(View view) {
-        startActivity(new Intent(this, Test3Activity.class));
+        startActivity(new Intent(this, Test6Activity.class));
     }
 }
