@@ -1,8 +1,10 @@
 package com.daggr2.demo.newdagger2.test5.bean;
 
 public class Bike {
+    String name;
 
-    public Bike() {
+    public Bike(String name) {
+        this.name = name;
     }
 
 

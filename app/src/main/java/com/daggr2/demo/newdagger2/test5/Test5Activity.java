@@ -20,6 +20,6 @@ public class Test5Activity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        DaggerFatherComponent.builder().buildFatherComponent().getSonComponent().buildSonComponent().inject(this);
+        DaggerFatherComponent.builder().toFatherInt(100).buildFatherComponent().getSonComponent().toSonStr("001").buildSonComponent().inject(this);
     }
 }

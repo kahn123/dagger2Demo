@@ -11,7 +11,7 @@ import dagger.Subcomponent;
 public class FatherModule {
 
     @Provides
-    Car providesCar(){
-        return new Car();
+    Car providesCar(int money) {
+        return new Car(money);
     }
 }

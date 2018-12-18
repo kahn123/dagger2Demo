@@ -9,7 +9,7 @@ import dagger.Provides;
 public class SonModule {
 
     @Provides
-    Bike providesBike(){
-        return new Bike();
+    Bike providesBike(String name){
+        return new Bike(name);
     }
 }
