@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-
+//https://www.jianshu.com/p/2ec39d8b7e98
 import com.daggr2.demo.newdagger2.test6.Test6Activity;
 
 
